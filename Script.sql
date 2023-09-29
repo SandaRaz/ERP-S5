@@ -71,3 +71,20 @@ CREATE TABLE codeJournaux(
 );
 
 ALTER TABLE codeJournaux ADD FOREIGN KEY(idEntreprise) REFERENCES entreprise(id);
+
+CREATE TABLE employe(
+	id SERIAL PRIMARY KEY,
+	nom
+	prenom
+	naissance
+	telephone
+	email
+);
+
+CREATE TABLE Departement(
+
+);
+
+CREATE TABLE EmpDept(
+
+);

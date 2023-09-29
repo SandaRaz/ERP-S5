@@ -30,6 +30,7 @@
     dispatcher.include(request, response);
 %>
 
+<!--------------  FOOTER INCLUDE ------------->
 <jsp:include page="../inc/footer.jsp"/>
 
 <script src="../assets/js/jquery.min.js"></script>

@@ -22,7 +22,7 @@
 <%--            <a href="./entreprise.jsp?includePage=recherche"><i class="fas fa-search navicone2"></i></a>--%>
         </h2>
 
-        <div id="sub-menu2">
+        <div class="sub-menu2">
             <a href="./entreprise.jsp?includePage=planComptable">
                 <div class="affichage">
                     <p class="menu-nav">PC</p>
@@ -60,5 +60,32 @@
             <div class="affichage-st"></div>
 
         </div>
+        
+        <div class="sub-menu2">
+            <a href="./entreprise.jsp?includePage=enregistrerEmp">
+                <div class="affichage">
+                    <p class="menu-nav">EE</p>
+                </div>
+            </a>
+            <a href="./entreprise.jsp?includePage=departement">
+                <div class="affichage">
+                    <p class="menu-nav">SD</p>
+                </div>
+            </a>
+            
+            <div></div>
+            <!------------- A decommenté -----------------
+            <a href="./entreprise.jsp?includePage=codeJournaux">
+                <div class="affichage">
+                    <p class="menu-nav"></p>
+                </div>
+            </a>
+            -->
+
+            <div class="affichage-st">Enregistrement d'Employé</div>
+            <div class="affichage-st">Services/Departement</div>
+            <div class="affichage-st"></div>
+
+        </div
     </div>
 </div>

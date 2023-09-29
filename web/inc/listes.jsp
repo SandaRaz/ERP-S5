@@ -20,7 +20,7 @@
             <%
                 for(Entreprise ese : structListEntreprise.listes){
             %>
-            <a href="ListeEntreprise.MyController?idEse=<%= ese.getId() %>">
+            <a href="ListeEntreprise.EntrepriseController?idEse=<%= ese.getId() %>">
                 <div class="unEntreprise">
                     <%= ese.getNom() %>
                 </div>

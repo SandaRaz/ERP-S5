@@ -18,8 +18,8 @@ import java.sql.Connection;
 import java.sql.SQLException;
 import java.text.ParseException;
 
-@WebServlet(name = "MyController", value = "*.MyController")
-public class MyController extends MereController{
+@WebServlet(name = "EntrepriseController", value = "*.EntrepriseController")
+public class EntrepriseController extends MereController{
 
     @CtrlAnnotation(name = "test")
     public void test() throws IOException {
